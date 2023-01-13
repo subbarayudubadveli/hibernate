@@ -47,7 +47,7 @@ public class App
 //    	 session.delete(passport);
     	 
     	System.out.println("second commit");
-    	System.out.println("third commit");
+    	System.out.println("third ");
     	 transaction.commit();
     	
     	
