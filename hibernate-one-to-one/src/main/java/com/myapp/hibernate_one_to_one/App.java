@@ -13,6 +13,7 @@ public class App
     public static void main( String[] args )
     {
 
+    	
 
     	Configuration configuration = new Configuration();
     	configuration.configure("hibernate.cfg.xml");
@@ -45,6 +46,7 @@ public class App
 //    	 //passport.getStudent().setPassport(null);
 //    	 session.delete(passport);
     	 
+    	System.out.println("second commit");
     	
     	 transaction.commit();
     	
